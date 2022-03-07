@@ -40,4 +40,4 @@
       {
       fact*=e;
       }
-    console.log(fact)
+    console.log(fact);
