@@ -35,10 +35,9 @@
     console.log("\n\n");
 
     console.log("factorielle de 5:");
-    let nbr = 5;
-    let fact=nbr;
-    for(let e=1; e<nbr;e++)
+    let fact=1;
+    for(let e=1; e<=5;e++)
       {
-      console.log(fact*=e);
+      fact*=e;
       }
-
+    console.log(fact)
